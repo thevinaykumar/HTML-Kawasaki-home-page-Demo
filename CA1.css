@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-logo h1 {
+    color: red;
+    font-size: 24px;
+  }
+  
+  .navbar-links a,
+  .navbar-right a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .important-notice {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  .important-notice a {
+    color: #eee;
+    text-decoration: underline;
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url('https://www.baltana.com/files/wallpapers-20/Kawasaki-Z900-High-Definition-Wallpaper-49103.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    min-height: 80vh; 
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h2 {
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content h1 {
+    font-size: 72px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content button {
+    background-color: #32CD32;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .disclaimer {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  .hero-image {
+    display: none; 
+  }
+  
